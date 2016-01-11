@@ -20,11 +20,74 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="child list">
-			<Node name="unit1">
+			<Node name="ordersdate_asc">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="Unit1.sj"/>
+					<Prp name="relpath" type="S" value="OrdersDate_Asc.sj"/>
 				</Node>
-				<Prp name="key" type="S" value="{2746DBC1-92B2-4867-B63C-83B9C827AE8D}"/>
+				<Prp name="key" type="S" value="{1FD1E02F-71DA-4ED5-BEC4-6502DB71E32D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="ordersdate_desc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OrdersDate_Desc.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E7EF3DE2-9147-4E46-ACD5-76E086C811AF}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="orderssort_asc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OrdersSort_Asc.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{4FAAD2D9-1A12-4222-84A2-B30516D8B3D7}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="orderssort_desc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OrdersSort_Desc.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{142DF2F1-B56A-48F0-ADD8-2E0983EA312F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="ratecard_asc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCard_Asc.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{6D3CA94A-AD23-49E2-AD4E-F1DFB08B2D40}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="ratecard_desc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCard_Desc.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{D937CB74-3C09-45D9-9070-E60D394A47D4}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="readlogindatafromexcel">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ReadLoginDataFromExcel.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{DAD1ADB1-E3FA-451F-B884-9AD214745A89}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="readurlfromexcel">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ReadURLFromExcel.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{54D8AF05-8343-46DB-B63F-A4D9830ABFB6}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>

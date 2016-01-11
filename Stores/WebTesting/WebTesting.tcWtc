@@ -19,7 +19,62 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Node name="child list"/>
+		<Node name="child list">
+			<Node name="webcomparison1">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WebComparison1.tcWcm"/>
+				</Node>
+				<Prp name="key" type="S" value="{8CC57F91-F080-45B1-BD4F-E00F7CA86F51}"/>
+				<Prp name="pluginname" type="S" value="Web Checkpoints"/>
+				<Prp name="type" type="S" value="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}"/>
+				<Prp name="typename" type="S" value="Web Comparison"/>
+			</Node>
+			<Node name="webcomparison2">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WebComparison2.tcWcm"/>
+				</Node>
+				<Prp name="key" type="S" value="{738BF831-ED52-4571-B241-FE2841E58E71}"/>
+				<Prp name="pluginname" type="S" value="Web Checkpoints"/>
+				<Prp name="type" type="S" value="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}"/>
+				<Prp name="typename" type="S" value="Web Comparison"/>
+			</Node>
+			<Node name="webcomparison3">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WebComparison3.tcWcm"/>
+				</Node>
+				<Prp name="key" type="S" value="{E63F6533-D800-48E8-9E43-C46B92C19D78}"/>
+				<Prp name="pluginname" type="S" value="Web Checkpoints"/>
+				<Prp name="type" type="S" value="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}"/>
+				<Prp name="typename" type="S" value="Web Comparison"/>
+			</Node>
+			<Node name="webcomparison4">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WebComparison4.tcWcm"/>
+				</Node>
+				<Prp name="key" type="S" value="{395B22DD-95BA-48B6-AC40-E86C3C4925AA}"/>
+				<Prp name="pluginname" type="S" value="Web Checkpoints"/>
+				<Prp name="type" type="S" value="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}"/>
+				<Prp name="typename" type="S" value="Web Comparison"/>
+			</Node>
+			<Node name="webcomparison5">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WebComparison5.tcWcm"/>
+				</Node>
+				<Prp name="key" type="S" value="{44AD8EA3-FC4A-48B7-BF2B-91F76283D47A}"/>
+				<Prp name="pluginname" type="S" value="Web Checkpoints"/>
+				<Prp name="type" type="S" value="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}"/>
+				<Prp name="typename" type="S" value="Web Comparison"/>
+			</Node>
+			<Node name="webcomparison6">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WebComparison6.tcWcm"/>
+				</Node>
+				<Prp name="key" type="S" value="{6A4535C7-9B91-4DFD-AF61-F6D1D99FED8C}"/>
+				<Prp name="pluginname" type="S" value="Web Checkpoints"/>
+				<Prp name="type" type="S" value="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}"/>
+				<Prp name="typename" type="S" value="Web Comparison"/>
+			</Node>
+		</Node>
 		<Node name="folders"/>
 		<Node name="settings"/>
 		<Prp name="signature" type="S" value="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}"/>

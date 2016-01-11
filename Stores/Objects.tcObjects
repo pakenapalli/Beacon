@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="linkallorders">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="linkAllOrders"/>
+					<Prp name="filename" type="S" value="Objects\linkAllOrders.tcObject"/>
+					<Prp name="id" type="S" value="{E9A2133E-ACEA-428E-97A3-1586902E2F13}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{E9A2133E-ACEA-428E-97A3-1586902E2F13}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="linkallorders1">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="linkAllOrders1"/>
+					<Prp name="filename" type="S" value="Objects\linkAllOrders1.tcObject"/>
+					<Prp name="id" type="S" value="{1727C162-7505-4447-8328-6C4557FC6975}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{1727C162-7505-4447-8328-6C4557FC6975}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="linkallorders2">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="linkAllOrders2"/>
+					<Prp name="filename" type="S" value="Objects\linkAllOrders2.tcObject"/>
+					<Prp name="id" type="S" value="{12AC61E6-2110-4B15-8533-557E85242B8B}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{12AC61E6-2110-4B15-8533-557E85242B8B}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="panelcolmd121">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="panelColMd121"/>
+					<Prp name="filename" type="S" value="Objects\panelColMd121.tcObject"/>
+					<Prp name="id" type="S" value="{83287864-E43A-4249-B2E8-28D38E049645}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="7"/>
+				<Prp name="key" type="S" value="{83287864-E43A-4249-B2E8-28D38E049645}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="panelcontainersubmenuwrapper1">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="panelContainerSubMenuWrapper1"/>
+					<Prp name="filename" type="S" value="Objects\panelContainerSubMenuWrapper1.tcObject"/>
+					<Prp name="id" type="S" value="{D6E07CEE-C760-4EC2-A591-4C4C9A592195}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{D6E07CEE-C760-4EC2-A591-4C4C9A592195}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="panelcontainersubmenuwrapper2">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="panelContainerSubMenuWrapper2"/>
+					<Prp name="filename" type="S" value="Objects\panelContainerSubMenuWrapper2.tcObject"/>
+					<Prp name="id" type="S" value="{9639A68B-E439-4A0C-8286-135298A61B5C}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{9639A68B-E439-4A0C-8286-135298A61B5C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="panelnavbarnavbarinversenavbarfi1">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="panelNavbarNavbarInverseNavbarFi1"/>
+					<Prp name="filename" type="S" value="Objects\panelNavbarNavbarInverseNavbarFi1.tcObject"/>
+					<Prp name="id" type="S" value="{2D16A8B5-4457-427D-86CE-820686E422ED}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="key" type="S" value="{2D16A8B5-4457-427D-86CE-820686E422ED}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+			<Node name="selectselectedappcategory1">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="selectSelectedappcategory1"/>
+					<Prp name="filename" type="S" value="Objects\selectSelectedappcategory1.tcObject"/>
+					<Prp name="id" type="S" value="{3E1E1D0B-0A51-4E89-8DAF-050B240E000E}"/>
+					<Prp name="signature" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{3E1E1D0B-0A51-4E89-8DAF-050B240E000E}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}"/>
+				<Prp name="typename" type="S" value="Object"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{30501691-969F-4007-923F-BA4459E51E6A}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
