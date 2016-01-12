@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="item idx=0000">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4046643519"/>
+				<Prp name="image file name" type="S" value="tcvi8662157836280.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="1"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="-1"/>
+				<Prp name="object left" type="I" value="-1"/>
+				<Prp name="object name" type="S" value="Aliases.browser.Orderscreen.panelNgScope.panelNgScope.panelRow.panelColMd12.tableTableTableBorderedTableCond.cellFilterNgScope.textboxFalse"/>
+				<Prp name="object right" type="I" value="-1"/>
+				<Prp name="object top" type="I" value="-1"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0001">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4046759259"/>
+				<Prp name="image file name" type="S" value="tcvi8662289036281.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="2"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="-1"/>
+				<Prp name="object left" type="I" value="-1"/>
+				<Prp name="object name" type="S" value="Aliases.browser.Orderscreen.panelNgScope.panelNgScope.panelRow.panelColMd12.tableTableTableBorderedTableCond.cellFilterNgScope.textboxFalse"/>
+				<Prp name="object right" type="I" value="-1"/>
+				<Prp name="object top" type="I" value="-1"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0002">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4048842593"/>
+				<Prp name="image file name" type="S" value="tcvi8664012536287.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="6"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="-1"/>
+				<Prp name="object left" type="I" value="-1"/>
+				<Prp name="object name" type="S" value="Aliases.browser.OrderDetailScreen"/>
+				<Prp name="object right" type="I" value="-1"/>
+				<Prp name="object top" type="I" value="-1"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0003">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4298842593"/>
+				<Prp name="image file name" type="S" value="tcvi8880045341561.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="7"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="-1"/>
+				<Prp name="object left" type="I" value="-1"/>
+				<Prp name="object name" type="S" value="Aliases.browser.OrderDetailScreen.formSidePanelContainerNgPristine.buttonToggleDropdown"/>
+				<Prp name="object right" type="I" value="-1"/>
+				<Prp name="object top" type="I" value="-1"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0004">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4645833333"/>
+				<Prp name="image file name" type="S" value="tcvi9179821834242.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="10"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="388"/>
+				<Prp name="object left" type="I" value="102"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.panelRowSmall.selectDrpapplication"/>
+				<Prp name="object right" type="I" value="266"/>
+				<Prp name="object top" type="I" value="354"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0005">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4646180556"/>
+				<Prp name="image file name" type="S" value="tcvi9180095334245.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="12"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="388"/>
+				<Prp name="object left" type="I" value="296"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.panelRowSmall.selectDrpadtype"/>
+				<Prp name="object right" type="I" value="461"/>
+				<Prp name="object top" type="I" value="354"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0006">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4646875"/>
+				<Prp name="image file name" type="S" value="tcvi9180710934249.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="14"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="179"/>
+				<Prp name="object left" type="I" value="0"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.panelRowSmall.selectDrpposition"/>
+				<Prp name="object right" type="I" value="57"/>
+				<Prp name="object top" type="I" value="0"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0007">
+				<Prp name="click point x" type="I" value="620"/>
+				<Prp name="click point y" type="I" value="368"/>
+				<Prp name="datetime" type="D" value="42341.4646990741"/>
+				<Prp name="image file name" type="S" value="tcvi91808671342410.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="16"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="388"/>
+				<Prp name="object left" type="I" value="589"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.textboxSelectedpage"/>
+				<Prp name="object right" type="I" value="851"/>
+				<Prp name="object top" type="I" value="354"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0008">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4755208333"/>
+				<Prp name="image file name" type="S" value="tcvi9274293772560.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="17"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="388"/>
+				<Prp name="object left" type="I" value="589"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.textboxSelectedpage"/>
+				<Prp name="object right" type="I" value="851"/>
+				<Prp name="object top" type="I" value="354"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0009">
+				<Prp name="click point x" type="I" value="384"/>
+				<Prp name="click point y" type="I" value="439"/>
+				<Prp name="datetime" type="D" value="42341.5534490741"/>
+				<Prp name="image file name" type="S" value="tcvi9947650059960.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="22"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="459"/>
+				<Prp name="object left" type="I" value="296"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.panelRow.splitbuttonAddOrderLine.textboxProductinfo"/>
+				<Prp name="object right" type="I" value="559"/>
+				<Prp name="object top" type="I" value="425"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0010">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.5534722222"/>
+				<Prp name="image file name" type="S" value="tcvi9947829659961.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="23"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="459"/>
+				<Prp name="object left" type="I" value="296"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.panelRow.splitbuttonAddOrderLine.textboxProductinfo"/>
+				<Prp name="object right" type="I" value="559"/>
+				<Prp name="object top" type="I" value="425"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0011">
+				<Prp name="click point x" type="I" value="631"/>
+				<Prp name="click point y" type="I" value="446"/>
+				<Prp name="datetime" type="D" value="42341.5535416667"/>
+				<Prp name="image file name" type="S" value="tcvi99484406599611.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="24"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="459"/>
+				<Prp name="object left" type="I" value="589"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.panelRow.splitbuttonAddOrderLine.textboxProductinfo"/>
+				<Prp name="object right" type="I" value="754"/>
+				<Prp name="object top" type="I" value="425"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0012">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.5535532407"/>
+				<Prp name="image file name" type="S" value="tcvi99485734599612.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="25"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="459"/>
+				<Prp name="object left" type="I" value="589"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.panelRow.splitbuttonAddOrderLine.textboxProductinfo"/>
+				<Prp name="object right" type="I" value="754"/>
+				<Prp name="object top" type="I" value="425"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0013">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.5535763889"/>
+				<Prp name="image file name" type="S" value="tcvi99487109599614.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="26"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="459"/>
+				<Prp name="object left" type="I" value="589"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.panelRow.splitbuttonAddOrderLine.textboxProductinfo"/>
+				<Prp name="object right" type="I" value="754"/>
+				<Prp name="object top" type="I" value="425"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0014">
+				<Prp name="click point x" type="I" value="1350"/>
+				<Prp name="click point y" type="I" value="158"/>
+				<Prp name="datetime" type="D" value="42341.4650462963"/>
+				<Prp name="image file name" type="S" value="tcvi91838750342435.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="28"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="728"/>
+				<Prp name="object left" type="I" value="0"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18"/>
+				<Prp name="object right" type="I" value="1360"/>
+				<Prp name="object top" type="I" value="77"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0015">
+				<Prp name="click point x" type="I" value="180"/>
+				<Prp name="click point y" type="I" value="418"/>
+				<Prp name="datetime" type="D" value="42341.4651273148"/>
+				<Prp name="image file name" type="S" value="tcvi91845109342436.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="29"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="458"/>
+				<Prp name="object left" type="I" value="117"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelProductsInAd.panelWellWellSm.textnodeProductListListUnstyled.panelTextCenter"/>
+				<Prp name="object right" type="I" value="252"/>
+				<Prp name="object top" type="I" value="393"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0016">
+				<Prp name="click point x" type="I" value="517"/>
+				<Prp name="click point y" type="I" value="404"/>
+				<Prp name="datetime" type="D" value="42341.465150463"/>
+				<Prp name="image file name" type="S" value="tcvi91847546342437.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="30"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="412"/>
+				<Prp name="object left" type="I" value="489"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.modalProductSearch.formNoteform.textboxSearchtext"/>
+				<Prp name="object right" type="I" value="897"/>
+				<Prp name="object top" type="I" value="378"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0017">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4651736111"/>
+				<Prp name="image file name" type="S" value="tcvi91849375342438.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="31"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="412"/>
+				<Prp name="object left" type="I" value="489"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.modalProductSearch.formNoteform.textboxSearchtext"/>
+				<Prp name="object right" type="I" value="897"/>
+				<Prp name="object top" type="I" value="378"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0018">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4652314815"/>
+				<Prp name="image file name" type="S" value="tcvi91854078342439.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="32"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="412"/>
+				<Prp name="object left" type="I" value="896"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.modalProductSearch.formNoteform.panelInputGroup.buttonSearch"/>
+				<Prp name="object right" type="I" value="966"/>
+				<Prp name="object top" type="I" value="378"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0019">
+				<Prp name="click point x" type="I" value="883"/>
+				<Prp name="click point y" type="I" value="376"/>
+				<Prp name="datetime" type="D" value="42341.4653356481"/>
+				<Prp name="image file name" type="S" value="tcvi91863421342440.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="34"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="431"/>
+				<Prp name="object left" type="I" value="844"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.modalProductSearch.imageJpg2"/>
+				<Prp name="object right" type="I" value="939"/>
+				<Prp name="object top" type="I" value="336"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0020">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4653703704"/>
+				<Prp name="image file name" type="S" value="tcvi91866171342441.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="35"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="-1"/>
+				<Prp name="object left" type="I" value="-1"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.modalProductSearch.button"/>
+				<Prp name="object right" type="I" value="-1"/>
+				<Prp name="object top" type="I" value="-1"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0021">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4654166667"/>
+				<Prp name="image file name" type="S" value="tcvi91870671342444.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="36"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="702"/>
+				<Prp name="object left" type="I" value="102"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.selectSelect1"/>
+				<Prp name="object right" type="I" value="259"/>
+				<Prp name="object top" type="I" value="668"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0022">
+				<Prp name="click point x" type="I" value="1355"/>
+				<Prp name="click point y" type="I" value="388"/>
+				<Prp name="datetime" type="D" value="42341.465462963"/>
+				<Prp name="image file name" type="S" value="tcvi91874734342445.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="37"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="728"/>
+				<Prp name="object left" type="I" value="0"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18"/>
+				<Prp name="object right" type="I" value="1360"/>
+				<Prp name="object top" type="I" value="77"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0023">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4841203704"/>
+				<Prp name="image file name" type="S" value="tcvi9348685958200.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="38"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="-1"/>
+				<Prp name="object left" type="I" value="-1"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.buttonSave"/>
+				<Prp name="object right" type="I" value="-1"/>
+				<Prp name="object top" type="I" value="-1"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0024">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42341.4656828704"/>
+				<Prp name="image file name" type="S" value="tcvi91893250342447.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="39"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="639"/>
+				<Prp name="object left" type="I" value="1093"/>
+				<Prp name="object name" type="S" value="Aliases.browser.pageAdManagement18.formAmformorderline.panelContainer.buttonClose"/>
+				<Prp name="object right" type="I" value="1155"/>
+				<Prp name="object top" type="I" value="605"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Prp name="key" type="S" value="{B22D76E4-FC26-4633-A89C-8CB2CEB9E632}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>
