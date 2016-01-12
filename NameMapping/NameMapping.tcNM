@@ -515,7 +515,7 @@
 																		<Value PropertyType="0" Value="Link" Type="5" />
 																	</Property>
 																	<Property Name="href">
-																		<Value PropertyType="0" Value="http://stage-admanagement.asicentral.com/am/orders/2015/add" Type="5" />
+																		<Value PropertyType="0" Value="http://stage-admanagement.asicentral.com/am/orders/*/add" Type="5" />
 																	</Property>
 																	<Property Name="Name">
 																		<Value PropertyType="0" Value="Link(1)" Type="5" />
@@ -1479,6 +1479,20 @@
 															</Property>
 															<Property Name="ObjectLabel">
 																<Value PropertyType="0" Value="Change Order Status(1)" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="linkCompleted" Key="{1D2BA20D-B22C-4056-945F-9A31A258BD6D}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{027F0C03-FD30-42DC-AF05-D8A0D1DF0370}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Link" Type="5" />
+															</Property>
+															<Property Name="href">
+																<Value PropertyType="0" Value="http://stage-admanagement.asicentral.com/am/orders#" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="1" Type="0" />
 															</Property>
 														</Properties>
 													</Child>
@@ -5070,6 +5084,7 @@
 					</Child>
 					<Child Name="panelNgScope2" Owner="{6365703D-AD12-426A-9F67-E2DC171E423D}">
 						<Child Name="dropdownChangeOrderStatus1" Owner="{38347AC9-8A2E-4B34-86D9-15A4C3D98FE1}" />
+						<Child Name="linkCompleted" Owner="{1D2BA20D-B22C-4056-945F-9A31A258BD6D}" />
 					</Child>
 				</Child>
 				<Child Name="panelUpdatedSuccessfully" Owner="{CF299D95-C2F6-4EF1-BBE4-A140B03F9AE2}" />

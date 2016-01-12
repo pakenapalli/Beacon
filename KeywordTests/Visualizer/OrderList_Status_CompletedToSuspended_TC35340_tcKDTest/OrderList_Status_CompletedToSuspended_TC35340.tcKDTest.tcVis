@@ -21,29 +21,12 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="item idx=0000">
-				<Prp name="click point x" type="I" value="-1"/>
-				<Prp name="click point y" type="I" value="-1"/>
-				<Prp name="datetime" type="D" value="42367.9375"/>
-				<Prp name="image file name" type="S" value="tcvi44384126846247.png"/>
-				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="9"/>
-				<Prp name="need update" type="B" value="0"/>
-				<Prp name="object bottom" type="I" value="-1"/>
-				<Prp name="object left" type="I" value="-1"/>
-				<Prp name="object name" type="S" value="Aliases.AdManagement.pageAdManagement.panelNgScope.panelNgScope.panelNavbarNavbarInverseNavbarFi.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxOrderStatusFilter"/>
-				<Prp name="object right" type="I" value="-1"/>
-				<Prp name="object top" type="I" value="-1"/>
-				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
-				<Prp name="storage file name" type="S" value=""/>
-				<Prp name="version" type="I" value="1"/>
-			</Node>
-			<Node name="item idx=0001">
 				<Prp name="click point x" type="I" value="112"/>
 				<Prp name="click point y" type="I" value="498"/>
 				<Prp name="datetime" type="D" value="42367.9848842593"/>
 				<Prp name="image file name" type="S" value="tcvi44793414146240.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="21"/>
+				<Prp name="line #" type="I" value="25"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="505"/>
 				<Prp name="object left" type="I" value="110"/>
