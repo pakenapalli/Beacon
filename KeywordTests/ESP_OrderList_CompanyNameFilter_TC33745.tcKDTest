@@ -24,6 +24,9 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Login to Ad Management" />
+			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Login_ADMG" />
 			</Operation>

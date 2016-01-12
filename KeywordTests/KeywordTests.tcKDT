@@ -290,15 +290,6 @@
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
-			<Node name="login_admg_copy">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="Login_ADMG_copy.tcKDTest"/>
-				</Node>
-				<Prp name="key" type="S" value="{048B816F-5C1D-4682-8399-E2CF78D37EAC}"/>
-				<Prp name="pluginname" type="S" value="Keyword Testing"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
-			</Node>
 			<Node name="logout_admg">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="Logout_ADMG.tcKDTest"/>
