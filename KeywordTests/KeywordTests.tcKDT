@@ -317,6 +317,15 @@
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
+			<Node name="rarecards_tc34628_editratecardlayout">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RareCards_TC34628_EditRateCardLayout.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{0D6E7BD7-3730-4886-A4DE-315E038DC347}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
 			<Node name="ratecard_filtering_memberid_tc34522">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="RateCard_Filtering_MemberID_TC34522.tcKDTest"/>
@@ -367,6 +376,24 @@
 					<Prp name="relpath" type="S" value="RateCard_Sorting_RateCardName_TC34515.tcKDTest"/>
 				</Node>
 				<Prp name="key" type="S" value="{32FAE62E-50C8-4D59-B26F-8732B3CA9A98}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecard_tc34593_memberidnotfound">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCard_TC34593_MemberIDNotFound.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{C127DAE9-9EBA-4777-A145-238211AE776F}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecard_tc34594_memberidtypeahead">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCard_TC34594_MemberIDTypeAhead.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{AF2E9636-A3E8-4106-967C-B9490DCAFA22}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>

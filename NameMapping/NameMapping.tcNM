@@ -4454,6 +4454,48 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="textnodeTypeahead1758309" Key="{E523A179-17E2-4E05-97B5-A5BB2C6FA47D}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{027F0C03-FD30-42DC-AF05-D8A0D1DF0370}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="TextNode" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="typeahead-175-8309" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelToastContainer" Key="{BCD318BF-7900-485A-9513-411B2996F025}" ExtendedFind="True" ParallelWalk="True">
+										<TypeInfo Item0="{48FC8559-C1CE-406E-B70D-88960D0316C3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Panel" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="toast-container" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelToastToastWarning" Key="{4E25EDE4-9836-41CC-A6F7-D1090EA692DF}" ParallelWalk="True">
+												<TypeInfo Item0="{48FC8559-C1CE-406E-B70D-88960D0316C3}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelFailedMemberId8517NotFoundF" Key="{B47E50FE-5DE3-46B1-A3CB-1808E82FC41C}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{48FC8559-C1CE-406E-B70D-88960D0316C3}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
@@ -5468,6 +5510,12 @@
 					<Child Name="textboxMemberid" Owner="{5DFA1D28-C491-4F45-A140-025DB78AA620}" />
 					<Child Name="selectDrpapplication" Owner="{68E595C1-3216-43DC-A891-38A1B0E82F0F}" />
 					<Child Name="buttonCancel" Owner="{418F871F-91FE-4F08-B230-F0B70B0A000B}" />
+					<Child Name="textnodeTypeahead1758309" Owner="{E523A179-17E2-4E05-97B5-A5BB2C6FA47D}" />
+				</Child>
+				<Child Name="panelToastContainer" Owner="{BCD318BF-7900-485A-9513-411B2996F025}">
+					<Child Name="panelToastToastWarning" Owner="{4E25EDE4-9836-41CC-A6F7-D1090EA692DF}">
+						<Child Name="panelFailedMemberId8517NotFoundF" Owner="{B47E50FE-5DE3-46B1-A3CB-1808E82FC41C}" />
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageAdManagementRateCardDetails" Owner="{58278C80-DE83-49D4-97DE-88474BFE913E}">
