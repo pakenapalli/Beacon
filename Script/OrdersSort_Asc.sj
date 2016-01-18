@@ -22,5 +22,4 @@
  }
    if(Project.Variables.ColumnSorting=="") Project.Variables.ColumnSorting="Pass";
    Log.Message(Project.Variables.ColumnSorting);
-  
 }

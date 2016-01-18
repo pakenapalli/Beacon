@@ -290,6 +290,15 @@
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
+			<Node name="login_wesp">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Login_WESP.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{6478F2C9-F88E-43E2-AA54-C1FCFA01B4B1}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
 			<Node name="logout_admg">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="Logout_ADMG.tcKDTest"/>
@@ -317,11 +326,38 @@
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
+			<Node name="pfpad_tc35286_manuallayout">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="PFPAd_TC35286_ManualLayout.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{93D328C6-ABBE-4968-A4E8-6FB1BABDF552}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="pfpproductselection_manual_addproductlayout_tc35287">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="PFPProductSelection_Manual_AddProductLayout_TC35287.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{6737E003-05A1-4407-AE03-DDBFE34D3CD4}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
 			<Node name="rarecards_tc34628_editratecardlayout">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="RareCards_TC34628_EditRateCardLayout.tcKDTest"/>
 				</Node>
 				<Prp name="key" type="S" value="{0D6E7BD7-3730-4886-A4DE-315E038DC347}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecard_deleterate_assiciatedwithactiveorder_tc34627">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCard_DeleteRate_AssiciatedWithActiveOrder_TC34627.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{86D38B4A-C128-4739-BD71-0ABE69F93B58}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
@@ -398,11 +434,74 @@
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
-			<Node name="ratecards_editratelayout_homepagetitle_58522">
+			<Node name="ratecards_addnewlayout_tc34507">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="RateCards_EditRateLayOut_HomePageTitle_58522.tcKDTest"/>
+					<Prp name="relpath" type="S" value="RateCards_AddNewLayout_TC34507.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{EF7E2A77-A7A1-4610-B816-BA83E44C0327}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecards_editratehomepagebannerlayout_tc58521">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCards_EditRateHomepagebannerLayout_TC58521.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{84B7DCB0-EE71-419F-BAC5-A026EC57E520}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecards_editratehomepagetitlelayout_tc58522">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCards_EditRateHomePageTitleLayout_TC58522.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{BA447D7C-3D17-4545-9FF4-04EBBF781CFE}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecards_editratelayout_homepagetitle_58522_copy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCards_EditRateLayOut_HomePageTitle_58522_copy.tcKDTest"/>
 				</Node>
 				<Prp name="key" type="S" value="{925648B1-A9B2-4D51-B09B-D73A45C9E2F6}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecards_editratepfpwebsiteslayout_tc58520">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCards_EditRatePFPWebsitesLayout_TC58520.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{C5BDAF6A-A482-4410-AC22-CC8F7C1DCF33}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecards_editrateresultsbannerlayout_tc58523">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCards_EditRateResultsBannerLayout_TC58523.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{CB8F963D-BEFF-4020-8629-C9ABA38F13A0}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecards_editrateresultstowerlayout_tc59524">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCards_EditRateResultsTowerLayout_TC59524.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{E714C2F5-9C0A-4936-9012-CD8815661C98}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="ratecards_homepagebanner_layout_copy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCards_HomePageBanner_layout_copy.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{CC798917-5004-4D1A-9FDE-C888BB34FCBB}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
@@ -434,6 +533,15 @@
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
+			<Node name="ratecards_noduplicaterates_tc34616_n">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="RateCards_NoDuplicateRates_TC34616_N.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{E76AA47C-A40A-4235-BF1E-5B4341501542}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
 			<Node name="ratecards_sorting_primaryapplication_34518">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="RateCards_Sorting_PrimaryApplication_34518.tcKDTest"/>
@@ -443,9 +551,9 @@
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
-			<Node name="ratecards_sorting_year_34517">
+			<Node name="ratecards_sorting_year_tc34517">
 				<Node name="item data">
-					<Prp name="relpath" type="S" value="RateCards_Sorting_Year_34517.tcKDTest"/>
+					<Prp name="relpath" type="S" value="RateCards_Sorting_Year_TC34517.tcKDTest"/>
 				</Node>
 				<Prp name="key" type="S" value="{2420BCBF-7DDD-45A3-BA96-EE93917E6150}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
@@ -569,8 +677,46 @@
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
 			</Node>
+			<Node name="test4">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test4.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{506EF251-122B-429E-957B-2164F0C3FA64}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="test5">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test5.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{3911B56D-7337-4D45-8989-1B0F5F20E33C}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="test6">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test6.tcKDTest"/>
+				</Node>
+				<Prp name="key" type="S" value="{D5051DC2-FCE8-4EC3-8018-4F01B28F553E}"/>
+				<Prp name="pluginname" type="S" value="Keyword Testing"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
 		</Node>
-		<Node name="folders"/>
+		<Node name="folders">
+			<Node name="newfolder1">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{925648b1-a9b2-4d51-b09b-d73a45c9e2f6}" type="S" value=""/>
+					<Prp name="{cc798917-5004-4d1a-9fde-c888bb34fcbb}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="NewFolder1"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
 		<Node name="settings"/>
 		<Prp name="signature" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
 		<Prp name="version" type="S" value="11.0"/>

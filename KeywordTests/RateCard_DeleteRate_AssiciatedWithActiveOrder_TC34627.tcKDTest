@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{E7BA333E-53BD-4216-8508-AA390201F995}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="This test case verifies, filtering functionality for Rate Cards Screen=&gt; Year column&#9;" />
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Assign Security group value to Global variable to Login to Ad Management as ESP ADMG EAT" />
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="SecurityGroup">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="NewValue" DefVarType="0" VarType="8" ValueType="6" ValueValue="ESP ADMG Eat" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Login to Ad Management" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Login_ADMG" />
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1500" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Navigate to ESP Application" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageHome.formFrmsegment.panelContainer.fieldset.submitbuttonGo;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="CellVar">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.AdManagement.pageAdManagement.panelNgScope.panelNgScope.panelNavbarNavbarInverseNavbarFi.tableTableTableBorderedTableCond" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="Var1">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.TC34627.Variables.CellVar.cell(2, 2)" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Var1" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="ESP_MemberIDVar">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="CellVar.innerText" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Navigate to Admin Screen" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagement.panelNgScope.panelNgScope.panelNavbarNavbarInverseNavbarFi.linkAdmin;" />
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Navigate to Rate Cards Screen" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAdmin.panelNgScope.linkRateCards;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters text in the text box." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Apply a filter for Year column in which no results will appear " />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters text in the text box." Action="SetText">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Apply a filter for Member ID column in which no results will appear " />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" VarType="3" ValueType="1" ValueValue="30041" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="ESP_MemberIDVar">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID.Text" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cell2015Esp88660.contentText" />
+						<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="No Records Found" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Click on Add a Rate Card" />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.buttonAddARateCard;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.selectDrpyear" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.selectDrpapplication" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ESP" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Global" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Down][Down]" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab]" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.buttonSave;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.buttonCancel;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Filter with existing Rate Card Name" />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Apply a filter for Member ID column in which no results will appear " />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Apply a filter for Year column in which no results will appear " />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Verify no of results are 1" />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="RowCount" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="4" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.buttonAddARateCard;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.selectDrpyear" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.selectDrpapplication" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ESP" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Global" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Down][Down]" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab]" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.buttonSave;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.panelToastContainer.panelToastToastWarning" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Rate card already exist" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.buttonCancel;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.panelModalFadeNgIsolateScopeDirt.buttonYes;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1500" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Filter with existing Rate Card Name" />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Apply a filter for Member ID column in which no results will appear " />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Apply a filter for Year column in which no results will appear " />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Verify no of results are 1" />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="RowCount" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="4" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Verify matching records are displayed as per the filter." />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cell2015" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellEsp" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ESP" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cell88660" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cell2015Esp88660;" />
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCardDetails.formAmfrmratecarddetail.panelContainer.panelRowSmallMargintop20.panelColSm12.panelRow.panelColXs2.textboxName" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="2016 ESP 30041" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCardDetails.formAmfrmratecarddetail.panelContainer.panelRowSmallMargintop20.panelColSm12.panelRow.panelColXs22.selectDrpyear" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="2016" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCardDetails.formAmfrmratecarddetail.panelContainer.panelRowSmallMargintop20.panelColSm12.panelRow.panelColXs24.textboxMemberid" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Rate card exists" />
+								<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.buttonAddARateCard;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.selectDrpyear" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.selectDrpapplication" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ESP" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Global" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Down][Down]" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Tab]" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.textboxMemberid;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.buttonSave;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementAddRateCard.panelToastContainer.panelToastToastWarning" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Rate card already exist" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.buttonCancel;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.panelModalFadeNgIsolateScopeDirt.buttonYes;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1500" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Filter with existing Rate Card Name" />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Apply a filter for Member ID column in which no results will appear " />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Apply a filter for Year column in which no results will appear " />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Verify no of results are 1" />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="RowCount" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="4" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Verify matching records are displayed as per the filter." />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cell2015" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellEsp" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ESP" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cell88660" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cell2015Esp88660;" />
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCardDetails.formAmfrmratecarddetail.panelContainer.panelRowSmallMargintop20.panelColSm12.panelRow.panelColXs2.textboxName" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="2016 ESP 30041" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCardDetails.formAmfrmratecarddetail.panelContainer.panelRowSmallMargintop20.panelColSm12.panelRow.panelColXs22.selectDrpyear" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="2016" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagementRateCardDetails.formAmfrmratecarddetail.panelContainer.panelRowSmallMargintop20.panelColSm12.panelRow.panelColXs24.textboxMemberid" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Navigate to Orders Screen" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementAddRateCard.formAmfrmratecarddetail.buttonCancel;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1500" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Filter with existing Rate Card Name" />
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Apply a filter for Member ID column in which no results will appear " />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="ESP_MemberIDVar" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope4.textboxMemberID;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Keys" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqConvert.DateTimeToFormatStr(aqDateTime.Now(), &quot;%Y&quot;)" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxYear;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.panelNgScope.panelRow.panelColMd12.panelTableResponsive.tableTableTableBorderedTableCond.linkDelete;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.Confirm.buttonOk;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1500" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementRateCards.panelNgScope.linkInsertionOrders;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Log out" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Logout_ADMG" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{06CF5746-B608-4292-98B0-7F442EB95275}">
+		<Items>
+			<Variable Name="CellVar" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue />
+			</Variable>
+			<Variable Name="Var1" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{EAE81C05-F2AD-4C63-BE2C-8E7FAA86E9A7}" />
+</Root>

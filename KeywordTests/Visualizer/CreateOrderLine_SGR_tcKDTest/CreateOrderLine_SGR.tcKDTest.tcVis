@@ -20,6 +20,23 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="data">
+			<Node name="item idx=0000">
+				<Prp name="click point x" type="I" value="1359"/>
+				<Prp name="click point y" type="I" value="663"/>
+				<Prp name="datetime" type="D" value="42387.2067013889"/>
+				<Prp name="image file name" type="S" value="tcvi19332675076720.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="27"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="728"/>
+				<Prp name="object left" type="I" value="0"/>
+				<Prp name="object name" type="S" value="Aliases.AdManagement.pageAdManagementCreateOrder"/>
+				<Prp name="object right" type="I" value="1364"/>
+				<Prp name="object top" type="I" value="120"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
 			<Prp name="key" type="S" value="{CED33644-68A0-4C56-B235-8A14622E4F85}"/>
 		</Node>
 		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
