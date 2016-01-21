@@ -258,7 +258,7 @@
 							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
 								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="MemberIDForWaitListVar" />
 							</Parameters>
-							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementWaitList.navbarAdmanagement.panelModalContent.tableTableTableBorderedTableCond.cellFilterNgScope.textboxFalse;" />
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementWaitList.navbarAdmanagement.panelModalContent.tableTableTableBorderedTableCond.cellFilterNgScope.textboxMemderID;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -266,7 +266,7 @@
 							<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
 								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="SearchTermForWaitListVar" />
 							</Parameters>
-							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementWaitList.navbarAdmanagement.panelModalContent.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxFalse;" />
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementWaitList.navbarAdmanagement.panelModalContent.tableTableTableBorderedTableCond.cellFilterNgScope2.textboxSearchTerm;" />
 						</Data>
 					</Operation>
 				</Children>
@@ -320,7 +320,7 @@
 				<Data Comment="Creare an Order" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="CreateNewOrder_ESP" />
+				<Data Description="Runs a keyword test." TestName="CreateNewOrder_SGR" />
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
@@ -337,7 +337,7 @@
 				<Data Comment="Create an Orderline" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="CreateOrderLine_ESP" />
+				<Data Description="Runs a keyword test." TestName="CreateOrderLine_SGR" />
 			</Operation>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 				<Data Comment="Verify Generate Detail button is not available." />
@@ -424,7 +424,7 @@
 				<Data Comment="Create Proposal" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="CreateProposal_ESP" />
+				<Data Description="Runs a keyword test." TestName="CreateProposal_SGR" />
 			</Operation>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 				<Data Comment="Select Application Category &apos;ESP&apos;" />

@@ -4,7 +4,7 @@
 
  var Excel = Sys.OleObject("Excel.Application"); 
 
- Excel.Workbooks.Open("C:\\Users\\pakenapalli\\Desktop\\NewFolder\\LoginData1.xls"); 
+ Excel.Workbooks.Open("C:\\Users\\pakenapalli\\Desktop\\NewFolder\\LoginData.xls"); 
  
 //Read data to variable for user role ESP ADMG EAT
 Project.Variables.ESP_EAT_ASINumberVar= Excel.Cells(2,1)
