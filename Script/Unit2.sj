@@ -1,1 +1,0 @@
-﻿Aliases.AdManagement.pageAdManagementCreateOrder.formAmformorderdetail.panelRow.panelCreatedByPrasanna4Akenapall.selectDrpsalesrep.ClickItem(1)
