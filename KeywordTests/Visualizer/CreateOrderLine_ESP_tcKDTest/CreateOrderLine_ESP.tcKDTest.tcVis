@@ -26,7 +26,7 @@
 				<Prp name="datetime" type="D" value="42361.9006597222"/>
 				<Prp name="image file name" type="S" value="tcvi16787329985203.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="3"/>
+				<Prp name="line #" type="I" value="4"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -43,7 +43,7 @@
 				<Prp name="datetime" type="D" value="42361.9006712963"/>
 				<Prp name="image file name" type="S" value="tcvi16787479785205.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="4"/>
+				<Prp name="line #" type="I" value="5"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -60,7 +60,7 @@
 				<Prp name="datetime" type="D" value="42361.9006944444"/>
 				<Prp name="image file name" type="S" value="tcvi16787652985207.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="5"/>
+				<Prp name="line #" type="I" value="6"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -77,7 +77,7 @@
 				<Prp name="datetime" type="D" value="42361.9007060185"/>
 				<Prp name="image file name" type="S" value="tcvi16787776185208.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="6"/>
+				<Prp name="line #" type="I" value="7"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -94,7 +94,7 @@
 				<Prp name="datetime" type="D" value="42361.9008796296"/>
 				<Prp name="image file name" type="S" value="tcvi167891879852015.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="8"/>
+				<Prp name="line #" type="I" value="9"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -111,7 +111,7 @@
 				<Prp name="datetime" type="D" value="42361.9009606481"/>
 				<Prp name="image file name" type="S" value="tcvi167899414852020.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="9"/>
+				<Prp name="line #" type="I" value="10"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -128,7 +128,7 @@
 				<Prp name="datetime" type="D" value="42361.9010185185"/>
 				<Prp name="image file name" type="S" value="tcvi167904156852022.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="10"/>
+				<Prp name="line #" type="I" value="11"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -145,7 +145,7 @@
 				<Prp name="datetime" type="D" value="42361.9010648148"/>
 				<Prp name="image file name" type="S" value="tcvi167908431852027.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="11"/>
+				<Prp name="line #" type="I" value="12"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -162,7 +162,7 @@
 				<Prp name="datetime" type="D" value="42361.9011458333"/>
 				<Prp name="image file name" type="S" value="tcvi167915607852028.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="14"/>
+				<Prp name="line #" type="I" value="15"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -179,7 +179,7 @@
 				<Prp name="datetime" type="D" value="42361.9011689815"/>
 				<Prp name="image file name" type="S" value="tcvi167916980852029.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="15"/>
+				<Prp name="line #" type="I" value="16"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -196,7 +196,7 @@
 				<Prp name="datetime" type="D" value="42361.9012962963"/>
 				<Prp name="image file name" type="S" value="tcvi167928524852032.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="18"/>
+				<Prp name="line #" type="I" value="19"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -213,7 +213,7 @@
 				<Prp name="datetime" type="D" value="42361.9013425926"/>
 				<Prp name="image file name" type="S" value="tcvi167932393852034.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="19"/>
+				<Prp name="line #" type="I" value="20"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -230,7 +230,7 @@
 				<Prp name="datetime" type="D" value="42361.9014236111"/>
 				<Prp name="image file name" type="S" value="tcvi167939491852036.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="20"/>
+				<Prp name="line #" type="I" value="21"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -247,7 +247,7 @@
 				<Prp name="datetime" type="D" value="42361.9014467593"/>
 				<Prp name="image file name" type="S" value="tcvi167941097852037.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="21"/>
+				<Prp name="line #" type="I" value="22"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -264,7 +264,7 @@
 				<Prp name="datetime" type="D" value="42361.9014467593"/>
 				<Prp name="image file name" type="S" value="tcvi167941862852038.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="22"/>
+				<Prp name="line #" type="I" value="23"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -281,7 +281,7 @@
 				<Prp name="datetime" type="D" value="42361.9015393518"/>
 				<Prp name="image file name" type="S" value="tcvi167949755852040.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="24"/>
+				<Prp name="line #" type="I" value="25"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>
@@ -298,7 +298,7 @@
 				<Prp name="datetime" type="D" value="42361.9016319444"/>
 				<Prp name="image file name" type="S" value="tcvi167957696852044.png"/>
 				<Prp name="kind" type="I" value="0"/>
-				<Prp name="line #" type="I" value="28"/>
+				<Prp name="line #" type="I" value="29"/>
 				<Prp name="need update" type="B" value="0"/>
 				<Prp name="object bottom" type="I" value="-1"/>
 				<Prp name="object left" type="I" value="-1"/>

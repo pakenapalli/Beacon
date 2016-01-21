@@ -12,6 +12,9 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Create Waitlist" />
+			</Operation>
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="MemberIDForWaitListVar">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">

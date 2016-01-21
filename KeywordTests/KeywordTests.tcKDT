@@ -20,24 +20,6 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="child list">
-			<Node name="copycreateneworder">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="CopyCreateNewOrder.tcKDTest"/>
-				</Node>
-				<Prp name="key" type="S" value="{3A502675-FDA0-4F56-BD93-460E932F615B}"/>
-				<Prp name="pluginname" type="S" value="Keyword Testing"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
-			</Node>
-			<Node name="copycreateneworder_enterandselectmemberid">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="CopyCreateNewOrder_EnterAndSelectMemberID.tcKDTest"/>
-				</Node>
-				<Prp name="key" type="S" value="{A78FEB1F-7668-44E7-9D2D-C28F523B5903}"/>
-				<Prp name="pluginname" type="S" value="Keyword Testing"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
-			</Node>
 			<Node name="createneworder_esp">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="CreateNewOrder_ESP.tcKDTest"/>
@@ -70,15 +52,6 @@
 					<Prp name="relpath" type="S" value="CreateNewOrder_SGR_EnterAndSelectMemberID.tcKDTest"/>
 				</Node>
 				<Prp name="key" type="S" value="{D70E78E9-7159-4021-BB00-AE361B623234}"/>
-				<Prp name="pluginname" type="S" value="Keyword Testing"/>
-				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
-				<Prp name="typename" type="S" value="Keyword Test"/>
-			</Node>
-			<Node name="createorder">
-				<Node name="item data">
-					<Prp name="relpath" type="S" value="CreateOrder.tcKDTest"/>
-				</Node>
-				<Prp name="key" type="S" value="{F3CA967B-871A-4109-B03E-51E87E89F09B}"/>
 				<Prp name="pluginname" type="S" value="Keyword Testing"/>
 				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
 				<Prp name="typename" type="S" value="Keyword Test"/>
