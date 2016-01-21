@@ -26,7 +26,7 @@
 		</Data>
 		<Children>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-				<Data Comment="This test case verifies,edit Rat Layout of Home Page Title banner." />
+				<Data Comment="This test case verifies, new Rate card Layout." />
 			</Operation>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 				<Data Comment="Assign Security group value to Global variable to Login to Ad Management as ESP ADMG EAT" />

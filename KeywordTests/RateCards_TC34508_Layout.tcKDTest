@@ -24,7 +24,7 @@
 		</Data>
 		<Children>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-				<Data Comment="This test case verifies, sorting functionality for Order Screen=&gt; Year column&#9;" />
+				<Data Comment="This test case verifies, sorting functionality for Rate Card layout&#9;" />
 			</Operation>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 				<Data Comment="Assign Security group value to Global variable to Login to Ad Management as ESP ADMG EAT" />
