@@ -740,6 +740,38 @@
 				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
 				<Prp name="typename" type="S" value="Region"/>
 			</Node>
+			<Node name="panellastupdated1">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="panelLastUpdated1"/>
+					<Prp name="filename" type="S" value="Regions\panelLastUpdated1.png"/>
+					<Prp name="id" type="S" value="{286BAAD9-D1DA-4465-9A10-438D9DE80EBC}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="72"/>
+				<Prp name="key" type="S" value="{286BAAD9-D1DA-4465-9A10-438D9DE80EBC}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="panellastupdated2">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="panelLastUpdated2"/>
+					<Prp name="filename" type="S" value="Regions\panelLastUpdated2.png"/>
+					<Prp name="id" type="S" value="{C5203D78-BCD2-4566-BBA4-7500C78D0B1D}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="73"/>
+				<Prp name="key" type="S" value="{C5203D78-BCD2-4566-BBA4-7500C78D0B1D}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
 			<Node name="panelmemberid1">
 				<Node name="item data">
 					<Node name="settings"/>

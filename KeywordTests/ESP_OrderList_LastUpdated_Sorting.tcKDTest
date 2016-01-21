@@ -104,12 +104,12 @@
 				<Data Comment="Verify&#32;&#32;Last Updated&#32;&#32;column header has up arrow" />
 			</Operation>
 			<Operation Type="{5006C6DA-7702-45C5-B4BB-DCBD0DC7B03E}">
-				<Data Description="Compares the %n Stores item with the image of the %p1 object." Checkpoint="cellHeaderSortableSortAsc9">
+				<Data Description="Compares the %n Stores item with the image of the %p1 object." Checkpoint="panelLastUpdated1">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
-						<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagement.panelNgScope.panelNgScope.panelNavbarNavbarInverseNavbarFi.tableTableTableBorderedTableCond.cellHeaderSortableSortDesc" />
+						<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagement.panelNgScope.panelNgScope.panelNavbarNavbarInverseNavbarFi.tableTableTableBorderedTableCond.cellHeaderSortableSortDesc.panelLastUpdated" />
 						<Parameter Name="Transparent" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
 						<Parameter Name="Mouse" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
-						<Parameter Name="PixelTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="PixelTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="421" />
 						<Parameter Name="ColorTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
 						<Parameter Name="Mask" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
 					</Parameters>
@@ -181,12 +181,12 @@
 				</Data>
 			</Operation>
 			<Operation Type="{5006C6DA-7702-45C5-B4BB-DCBD0DC7B03E}">
-				<Data Description="Compares the %n Stores item with the image of the %p1 object." Checkpoint="cellHeaderSortableSortDesc8">
+				<Data Description="Compares the %n Stores item with the image of the %p1 object." Checkpoint="panelLastUpdated2">
 					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
-						<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagement.panelNgScope.panelNgScope.panelNavbarNavbarInverseNavbarFi.tableTableTableBorderedTableCond.cellHeaderSortableSortDesc" />
+						<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.AdManagement.pageAdManagement.panelNgScope.panelNgScope.panelNavbarNavbarInverseNavbarFi.tableTableTableBorderedTableCond.cellHeaderSortableSortDesc.panelLastUpdated" />
 						<Parameter Name="Transparent" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
 						<Parameter Name="Mouse" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
-						<Parameter Name="PixelTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="PixelTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="509" />
 						<Parameter Name="ColorTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
 						<Parameter Name="Mask" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
 					</Parameters>

@@ -13,6 +13,9 @@
 		</Data>
 		<Children>
 			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Verifies sales rep list validation" />
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
 				<Data Comment="Assign Security group value to Global variable to Login to Ad Management as ESP ADMG EAT" />
 			</Operation>
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
