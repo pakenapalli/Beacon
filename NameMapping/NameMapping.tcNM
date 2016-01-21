@@ -1551,6 +1551,20 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="linkInventory" Key="{E812A3E2-DBB4-4AA4-8985-4F8E1493A435}" ExtendedFind="True" ParallelWalk="True">
+												<TypeInfo Item0="{027F0C03-FD30-42DC-AF05-D8A0D1DF0370}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="href">
+														<Value PropertyType="0" Value="http://stage-admanagement.asicentral.com/am/inventory" Type="5" />
+													</Property>
+													<Property Name="tabIndex">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="panelUpdatedSuccessfully" Key="{CF299D95-C2F6-4EF1-BBE4-A140B03F9AE2}" ExtendedFind="True" ParallelWalk="True">
@@ -2241,6 +2255,53 @@
 																		<Value PropertyType="0" Value="http://stage-admanagement.asicentral.com/am/inventory" Type="5" />
 																	</Property>
 																</Properties>
+																<Children>
+																	<Child Name="tableTableTableBorderedTableCond" Key="{D7BE7205-7B3A-43D1-9D19-A3026C8B3D83}" ExtendedFind="True" ParallelWalk="True">
+																		<TypeInfo Item0="{0FFAAB7E-2900-4C2E-848C-7E57FCE83B40}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Table" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="cellHeaderSortableSortAsc" Key="{EDBED3E8-DD34-4BAF-9CAA-E8CB5878BE6D}" ParallelWalk="True">
+																				<TypeInfo Item0="{6EBB5155-D6EF-4072-BEE4-5A3E4C258120}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Cell" Type="5" />
+																					</Property>
+																					<Property Name="RowIndex">
+																						<Value PropertyType="0" Value="0" Type="0" />
+																					</Property>
+																					<Property Name="ColumnIndex">
+																						<Value PropertyType="0" Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="formAmforminventory" Key="{00116620-575C-4F70-AEA4-1CEFBA974081}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{48FC8559-C1CE-406E-B70D-88960D0316C3}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Form" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="buttonSearch" Key="{A53C0160-480B-48DE-AF2B-4DCF91F3ADAB}" ExtendedFind="True" ParallelWalk="True">
+																<TypeInfo Item0="{2E8D9BC7-CAFF-4B78-B273-BDA5FF9E5F34}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Button" Type="5" />
+																	</Property>
+																	<Property Name="ObjectLabel">
+																		<Value PropertyType="0" Value="Search" Type="5" />
+																	</Property>
+																</Properties>
 															</Child>
 														</Children>
 													</Child>
@@ -2258,6 +2319,30 @@
 												<Value PropertyType="0" Value="http://stage-admanagement.asicentral.com/am/orders" Type="5" />
 											</Property>
 										</Properties>
+									</Child>
+									<Child Name="panelNgScope2" Key="{61A27367-F6F2-4778-AC6A-EA8B0119DE7F}" ParallelWalk="True">
+										<TypeInfo Item0="{48FC8559-C1CE-406E-B70D-88960D0316C3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Panel" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="0" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelNgScope" Key="{CA151D51-4925-49F1-8B5E-05528CD2BBEC}" ParallelWalk="True">
+												<TypeInfo Item0="{48FC8559-C1CE-406E-B70D-88960D0316C3}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -6597,11 +6682,23 @@
 				<Child Name="panelNgScope" Owner="{73639052-EA27-4124-946C-687EAA3D4E0F}">
 					<Child Name="panelContainerNgScope" Owner="{3E34CDA5-82A6-41C5-9A47-D2706A37DD65}">
 						<Child Name="panelRow" Owner="{0E9C0BB6-79DA-4811-A8F9-3BE2CAA390E7}">
-							<Child Name="panelInventoryTable" Owner="{B3BBE30D-4AB3-4942-B55F-F69879F41156}" />
+							<Child Name="panelInventoryTable" Owner="{B3BBE30D-4AB3-4942-B55F-F69879F41156}">
+								<Child Name="tableTableTableBorderedTableCond" Owner="{D7BE7205-7B3A-43D1-9D19-A3026C8B3D83}">
+									<Child Name="cellHeaderSortableSortAsc" Owner="{EDBED3E8-DD34-4BAF-9CAA-E8CB5878BE6D}" />
+								</Child>
+							</Child>
+						</Child>
+						<Child Name="formAmforminventory" Owner="{00116620-575C-4F70-AEA4-1CEFBA974081}">
+							<Child Name="buttonSearch" Owner="{A53C0160-480B-48DE-AF2B-4DCF91F3ADAB}" />
 						</Child>
 					</Child>
 				</Child>
 				<Child Name="linkInsertionOrders" Owner="{5CA76B4B-EF35-4462-9ACC-955091EC5A63}" />
+				<Child Name="panelNgScope2" Owner="{61A27367-F6F2-4778-AC6A-EA8B0119DE7F}">
+					<Child Name="panelNgScope" Owner="{CA151D51-4925-49F1-8B5E-05528CD2BBEC}">
+						<Child Name="linkInventory" Owner="{E812A3E2-DBB4-4AA4-8985-4F8E1493A435}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="pageDashboardLoginMozillaFirefox" Owner="{330B4932-81BC-4D11-A403-6533E28685CE}">
 				<Child Name="toolbarNavBar" Owner="{3768503E-7874-4641-9732-DB524937C0B4}">

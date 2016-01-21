@@ -20,6 +20,24 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="child list">
+			<Node name="inventorysort_asc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="InventorySort_Asc.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{99148D7F-8B71-404E-94FE-C3AFCC0DAD34}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="inventorysort_desc">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="InventorySort_Desc.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{0EBF9908-0983-4F0B-B779-0DD5D54D3113}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 			<Node name="ordersdate_asc">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="OrdersDate_Asc.sj"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{56AC0000-A39A-4658-8DB1-9EB06C2E8E97}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Verifes Inventory =&gt; Search Term sorting" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{CCF8AB65-D960-4C2F-8481-7E0EB631A9F3}" />
+	<Parameters Key="{2BF8F0D6-C515-4346-9E05-B96EDAFE6E08}" />
+</Root>

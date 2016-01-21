@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{672CF57C-9D1C-447E-9F6B-DB32941FDE34}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.AdManagement" Data="61717A6970000000010000003604000078017593EF6F535518C73F26FA82989821FE01465FA02F78A18109C1684190D009410D9225381426F107BF928ECD1745836C0C59607301C26C274C2A031CC2CC88D3DB1FA3749476BD5B7F50361C755BEDBAADACEBD6F56EAC5B3BEFBD83454C3CC9F73CE7DC733ECF799E739EBB7A43EE93A82D57EE5F9295F3504FF0BC3C92DBC3F5B9C95C3F3B3B8BC6320A55115EFCBE9F726782905FA0A3A1185B751EC2510D376B0BF05DD133D069259BC9A0308FB4D53FC19180A4CE93A331AED46CC75AB90EC789B5B41B3504CF69F0D569117FD888E3D43B386A36331E0BCDF30BCD63EA78726C0873C51A5AAB35847F7D9F84F373A40E1D92B748B5C9B6DDFCFDDB163ACEE461A9D0301AED54B9676E8CB3CB2FD16AC8A7F5F84A866C85A4BC250CB4ECC16DDC8850FE1AB6E3AB7019DE236ED79174EF23DC948FAD4A4B66669AE5910C8BEA0771D5EFA1EFDA16526231DD57B7E1FF791FF15E51DD939E4C3212F6E2AA2BE4F7B25C9A0F2D95ED327A6E99F82A9585B64974E7EA4905F4483E3D1EE3E6F9FC1EDDD3FF59CFCC2C2F44C6C9312588DCA9E6C1DD83784EAFC3FAED0A5516D95A8E2CC72CE7211CCE55CF6D2E5D4A73E9323C72CC8ADF2AB18905FD595E31F411099E241D2A9775585619E97B8A4A99EA3EC4833FBF410A7CCDB0FD33823FAEC772EC2D9577D66D6767340C3D593EBC749BF6BA7CECC756D152F1FA9C8EAE5463719D5C8BD4A667F8C62E82E737D1F29D56E5BD0D4574DEBEC08A780A5C59DE3C1D4292E3CAFCAB4E94386F193E60C4AE67C8BA03EFD977F1FEF2A5CAF7FB9B085E2C2410117879380DB62C6F9F12890D75AB3EA47898D0F51A02177690682D22FAC747722DE59108FB545E7947B7319FC1161D62CCCD92F81438B3BC51E9C079B60077CD26FA9ABE90DFE700F7ED9FD261D4D27E693FE6F084CA2BB1A5867B71546B89D9F7D31D1558134F42288BE67C0F565F23C9602951EB369C55AB112F9690C9CC50601E99E7151FE3B1BFF09CD94A57C34E06EF98D00DF6921349F36C7D8C4F7E6AC4642AA34BA8546B4AD9FF5CEDC063BCF24DC9252ADF87FF7231D72E97F0B168E3D5BB3172EC299E1692EC956BBD362871A26B82C58D8F9FAFF0FFD5F49484383A8DA17F8A257D6916B6493C258CB158FE6F7A2732FC03AD663373" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Verifies ESP Websites=&gt;PFP&gt;Inventory=&gt; Search Term sorting" />
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Assign Security group value to Global variable to Login to Ad Management as ESP ADMG EAT" />
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="SecurityGroup">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="NewValue" DefVarType="0" VarType="8" ValueType="6" ValueValue="ESP ADMG Eat" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Login to Ad Management" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Login_ADMG" />
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1500" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Navigate to ESP Application" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageHome.formFrmsegment.panelContainer.fieldset.submitbuttonGo;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+				<Data Comment="Navigate to Inventory Screen" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagement.panelNgScope.panelNgScope.panelNavbarNavbarInverseNavbarFi.linkInsertionOrders;" />
+				</Data>
+			</Operation>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementInventory.panelNgScope.panelContainerNgScope.panelRow.panelInventoryTable.Table(0);" />
+				</Data>
+				<Children>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="OrdersSort_Ascending" Unit="InventorySort_Asc" />
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Selects the item, specified as an index, from 0, or a name." Action="ClickItem">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="ESP Websites" />
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementInventory.panelNgScope.panelContainerNgScope.Form(&quot;amFormInventory&quot;).Panel(0).Panel(0).Panel(0).Select(&quot;drpApplication&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementInventory.panelNgScope.panelContainerNgScope.formAmforminventory.buttonSearch;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="OrdersSort_Ascending" Unit="InventorySort_Asc" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.AdManagement.pageAdManagementInventory.panelNgScope.panelContainerNgScope.panelRow.panelInventoryTable.tableTableTableBorderedTableCond.cellHeaderSortableSortAsc;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="OrdersSort_Ascending" Unit="InventorySort_Desc" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{325A7877-44C7-47AC-9195-36BCF55829A3}" />
+	<Parameters Key="{DC1A84B7-0B47-4D25-BDB6-E6553CAC0EB2}" />
+</Root>
