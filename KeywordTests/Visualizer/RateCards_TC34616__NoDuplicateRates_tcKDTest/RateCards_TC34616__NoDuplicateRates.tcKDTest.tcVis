@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="item idx=0000">
+				<Prp name="click point x" type="I" value="467"/>
+				<Prp name="click point y" type="I" value="18"/>
+				<Prp name="datetime" type="D" value="42386.8075694444"/>
+				<Prp name="image file name" type="S" value="tcvi158841107107161.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="43"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="256"/>
+				<Prp name="object left" type="I" value="392"/>
+				<Prp name="object name" type="S" value="Aliases.AdManagement.pageAdManagementRateCardDetails.panelModalFadeNgIsolateScopeIn.formFrmrate.panelFormGroup.selectDrpapplication"/>
+				<Prp name="object right" type="I" value="943"/>
+				<Prp name="object top" type="I" value="222"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0001">
+				<Prp name="click point x" type="I" value="473"/>
+				<Prp name="click point y" type="I" value="51"/>
+				<Prp name="datetime" type="D" value="42386.8076273148"/>
+				<Prp name="image file name" type="S" value="tcvi158845896107163.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="44"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="330"/>
+				<Prp name="object left" type="I" value="392"/>
+				<Prp name="object name" type="S" value="Aliases.AdManagement.pageAdManagementRateCardDetails.panelModalFadeNgIsolateScopeIn.formFrmrate.panelFormGroup2.selectDrpadtype"/>
+				<Prp name="object right" type="I" value="943"/>
+				<Prp name="object top" type="I" value="296"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0002">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42386.8080787037"/>
+				<Prp name="image file name" type="S" value="tcvi1588853641071622.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="46"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="728"/>
+				<Prp name="object left" type="I" value="0"/>
+				<Prp name="object name" type="S" value="Aliases.AdManagement.pageAdManagementRateCardDetails.panelModalFadeNgIsolateScopeIn"/>
+				<Prp name="object right" type="I" value="1364"/>
+				<Prp name="object top" type="I" value="120"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0003">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42386.8085763889"/>
+				<Prp name="image file name" type="S" value="tcvi1589277651071623.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="48"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="728"/>
+				<Prp name="object left" type="I" value="0"/>
+				<Prp name="object name" type="S" value="Aliases.AdManagement.pageAdManagementRateCardDetails.panelModalFadeNgIsolateScopeIn"/>
+				<Prp name="object right" type="I" value="1364"/>
+				<Prp name="object top" type="I" value="120"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Node name="item idx=0004">
+				<Prp name="click point x" type="I" value="-1"/>
+				<Prp name="click point y" type="I" value="-1"/>
+				<Prp name="datetime" type="D" value="42386.8089583333"/>
+				<Prp name="image file name" type="S" value="tcvi1589606661071624.png"/>
+				<Prp name="kind" type="I" value="0"/>
+				<Prp name="line #" type="I" value="50"/>
+				<Prp name="need update" type="B" value="0"/>
+				<Prp name="object bottom" type="I" value="728"/>
+				<Prp name="object left" type="I" value="0"/>
+				<Prp name="object name" type="S" value="Aliases.AdManagement.pageAdManagementRateCardDetails.panelModalFadeBootstrapDialogTyp"/>
+				<Prp name="object right" type="I" value="1364"/>
+				<Prp name="object top" type="I" value="120"/>
+				<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+				<Prp name="storage file name" type="S" value=""/>
+				<Prp name="version" type="I" value="1"/>
+			</Node>
+			<Prp name="key" type="S" value="{E76AA47C-A40A-4235-BF1E-5B4341501542}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>
